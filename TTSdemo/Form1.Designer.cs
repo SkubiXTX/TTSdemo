@@ -68,6 +68,7 @@
             this.cmbListaGlosow.Location = new System.Drawing.Point(6, 163);
             this.cmbListaGlosow.Name = "cmbListaGlosow";
             this.cmbListaGlosow.Size = new System.Drawing.Size(248, 21);
+            this.cmbListaGlosow.Sorted = true;
             this.cmbListaGlosow.TabIndex = 2;
             // 
             // grpOpcje
@@ -125,6 +126,7 @@
             // 
             // trbGlosnosc
             // 
+            this.trbGlosnosc.LargeChange = 10;
             this.trbGlosnosc.Location = new System.Drawing.Point(6, 99);
             this.trbGlosnosc.Maximum = 100;
             this.trbGlosnosc.Name = "trbGlosnosc";
@@ -135,6 +137,7 @@
             // 
             // trbSzybkosc
             // 
+            this.trbSzybkosc.LargeChange = 3;
             this.trbSzybkosc.Location = new System.Drawing.Point(6, 38);
             this.trbSzybkosc.Minimum = -10;
             this.trbSzybkosc.Name = "trbSzybkosc";
@@ -159,6 +162,7 @@
             this.Controls.Add(this.grpOpcje);
             this.Controls.Add(this.txtTekst);
             this.Controls.Add(this.btnOdczyt);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Odczytaj Tekst";
             this.Load += new System.EventHandler(this.Form1_Load);
