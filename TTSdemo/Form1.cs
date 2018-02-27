@@ -42,13 +42,10 @@ namespace TTSdemo
                 return;
             }
 
-
             syntezator.Volume = trbGlosnosc.Value;
             syntezator.Rate = trbSzybkosc.Value;
             syntezator.SelectVoice(cmbListaGlosow.Text);
-            grpOpcje.Enabled = false;
             syntezator.SpeakAsync(txtTekst.Text);
-            grpOpcje.Enabled = true;
         }
 
         private void trbSzybkosc_Scroll(object sender, EventArgs e)
