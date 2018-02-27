@@ -65,7 +65,7 @@
             // cmbListaGlosow
             // 
             this.cmbListaGlosow.FormattingEnabled = true;
-            this.cmbListaGlosow.Location = new System.Drawing.Point(6, 177);
+            this.cmbListaGlosow.Location = new System.Drawing.Point(6, 163);
             this.cmbListaGlosow.Name = "cmbListaGlosow";
             this.cmbListaGlosow.Size = new System.Drawing.Size(248, 21);
             this.cmbListaGlosow.TabIndex = 2;
@@ -82,7 +82,7 @@
             this.grpOpcje.Controls.Add(this.cmbListaGlosow);
             this.grpOpcje.Location = new System.Drawing.Point(12, 145);
             this.grpOpcje.Name = "grpOpcje";
-            this.grpOpcje.Size = new System.Drawing.Size(260, 204);
+            this.grpOpcje.Size = new System.Drawing.Size(260, 193);
             this.grpOpcje.TabIndex = 3;
             this.grpOpcje.TabStop = false;
             this.grpOpcje.Text = "Opcje";
@@ -145,7 +145,7 @@
             // lblGłos
             // 
             this.lblGłos.AutoSize = true;
-            this.lblGłos.Location = new System.Drawing.Point(7, 158);
+            this.lblGłos.Location = new System.Drawing.Point(7, 147);
             this.lblGłos.Name = "lblGłos";
             this.lblGłos.Size = new System.Drawing.Size(30, 13);
             this.lblGłos.TabIndex = 3;
@@ -155,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 361);
+            this.ClientSize = new System.Drawing.Size(284, 351);
             this.Controls.Add(this.grpOpcje);
             this.Controls.Add(this.txtTekst);
             this.Controls.Add(this.btnOdczyt);
