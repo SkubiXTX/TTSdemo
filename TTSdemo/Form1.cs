@@ -13,8 +13,6 @@ namespace TTSdemo
 {
     public partial class Form1 : Form
     {
-       public int szybskosc = 0;
-       public int glosnosc = 50;
 
         public Form1()
         {
